@@ -1,0 +1,35 @@
+# Build output
+*.bin
+*.o
+*.elf
+os-image.bin
+useDOS.iso
+boot_with_kernel.bin
+*.iso
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# QEMU state
+*.img
+*.qcow2
+
+# Dist folder (exclude iso.exe binary)
+dist/iso.exe
+iso.exe
+
+# Local NASM installation
+nasm compiler/
